@@ -13,8 +13,8 @@ def turtle_traits(turtles)
   
   turtles.each do |turtle|
     turtle.each do |array|
-      
-       
+      array[3][1]
+      binding.pry 
     end  
   end
   new_array
