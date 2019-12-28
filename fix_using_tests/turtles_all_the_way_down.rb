@@ -14,6 +14,7 @@ def turtle_traits(turtles)
     turtle.each do |key|
       if key == :traits
         new_array << key
+        binding.pry
       end  
     end
   end
