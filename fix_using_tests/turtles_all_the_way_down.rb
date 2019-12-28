@@ -15,7 +15,7 @@ def turtle_traits(turtles)
       binding.pry
       if key == :traits
       
-        new_array << key
+        new_array << key[1]
         
       end  
     end
