@@ -11,10 +11,7 @@ end
 def turtle_traits(turtles)
   new_array = []
   turtles.each do |turtle|
-    binding.pry
-    if turtle == :traits
-      new_array << turtle
-    end  
+    
   end
   new_array
 end
