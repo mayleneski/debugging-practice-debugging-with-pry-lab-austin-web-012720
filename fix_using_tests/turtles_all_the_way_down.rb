@@ -9,11 +9,11 @@ def turtles
 end
 
 def turtle_traits(turtles)
-  binding.pry
   new_array = []
+  
   turtles.each do |turtle|
     turtle.each do |array|
-      
+     binding.pry 
        
     end  
   end
