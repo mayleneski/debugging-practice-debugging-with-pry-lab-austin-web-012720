@@ -13,7 +13,7 @@ def turtle_traits(turtles)
   
   turtles.each do |turtle|
     turtle.each do |array|
-     binding.pry 
+      
        
     end  
   end
