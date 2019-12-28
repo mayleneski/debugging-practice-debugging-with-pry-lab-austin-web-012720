@@ -12,9 +12,8 @@ def turtle_traits(turtles)
   new_array = []
   turtles.each do |turtle|
     turtle.each do |key|
-      if key == :traits
       
-        new_array << key[1]
+        new_array << key
         
       end  
     end
